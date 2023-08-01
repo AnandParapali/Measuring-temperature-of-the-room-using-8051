@@ -164,7 +164,7 @@ void main()
 			s4=value;
 			s5=s4/10;
 			s6=s4%10;
-			s5=s5|0x30; // ascii conversion
+			s5=s5|0x30; // ascii conversion  // ading 48 so that we get the ascii value of that number as only ascii value can be printed to lcd.
 			s6=s6|0x30;
 			P3=0x8b;  //cursor position
 			rs=0;
